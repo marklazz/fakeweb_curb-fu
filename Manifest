@@ -1,0 +1,8 @@
+Manifest
+README.rdoc
+Rakefile
+lib/fakeweb_curb-fu.rb
+spec/fixtures/response.html
+spec/lib/fakeweb_curb-fu_spec.rb
+spec/spec_helper.rb
+tasks/fakeweb_curb-fu.rake
