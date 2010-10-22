@@ -3,7 +3,7 @@ require 'echoe'
 
 # PACKAGING ============================================================
 
-Echoe.new('fakeweb_curb-fu', '0.0.1') do |p|
+Echoe.new('fakeweb_curb-fu', '0.0.2') do |p|
   p.description = ''
   p.url = 'http://github.com/marklazz/fakeweb_curb-fu'
   p.author = 'Marcelo Giorgi'

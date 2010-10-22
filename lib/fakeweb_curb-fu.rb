@@ -36,11 +36,7 @@ class FakeWebCurbFu
     private
 
     def fixture_contents(path)
-      File.open(path) do |file|
-        return "".tap do |content|
-          file.each_line { |line| content.concat(line) }
-        end
-      end
+      IO.read(path)
     end
   end
 end

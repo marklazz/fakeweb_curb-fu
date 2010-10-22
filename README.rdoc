@@ -4,13 +4,14 @@ fakeweb_curb-fu is a helper for faking CurbFu web requests. It is inspired on Fa
 
 == Installation
 
-To get it, install the latest gem directly from Gemcutter (currently 0.0.1):
+To get it, install the latest gem directly from Gemcutter (currently 0.0.2):
 
   sudo gem install fakeweb_curb-fu
 
 == Examples
 
 require 'rubygems'
+
 require 'fakeweb_curb-fu'
 
 FakeWebCurbFu.register_uri("http://example.com/test1," "/path/to/expected/response")
